@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Estilos globales para todo el cuerpo */
+body {
+  background-image: url('background.jpg'); /* Cambia esta URL por la de tu imagen */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  background-position: center center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Estilo básico para el contenedor principal de la app */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Otros estilos globales de la app (si los tienes) */
+.App-header {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Botones y enlaces estilizados */
+button, a {
+  background-color: #4CAF50; /* Verde de ejemplo */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button:hover, a:hover {
+  background-color: #45a049;
+}
